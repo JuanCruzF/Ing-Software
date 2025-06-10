@@ -76,14 +76,15 @@ Se deberá visualizar el contenido del archivo `index.html`.
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Proyecto Docker</title>
+    <title>Ing. Software</title>
     <style>
         body { 
             background-color: #282c34;
             color: white;
             font-family: Arial, Helvetica, sans-serif; 
             text-align: center; 
-            margin-top: 100px; 
+            padding-top: 50px; 
+            padding-bottom: 50px;
         }
         h1 {
             color: #61dafb;
@@ -91,12 +92,21 @@ Se deberá visualizar el contenido del archivo `index.html`.
         p {
             font-size: 1.2rem;
         }
+        img {
+            max-width: 90%;
+            width: 350px;
+            height: auto;
+            border-radius: 15px;
+            margin-top: 20px;
+        }
     </style>
 </head>
 <body>
     <h1>Hola!!</h1>
-    <p>No entregué el proyecto en tiempo y forma</p>
-    <p>Pero logré hacerlo. Disculpas.</p>
+    <p>No pude entregar la tarea en tiempo y forma.</p>
+    <p>Pero lo pude hacer. Disculpas.</p>
+    <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExbGxtNmRhZWZ5Mzh0cGZ6cjgwNXdsbzJtZHlseTB6cHozb25sZWhhaiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/xT0BKFyZt9MMx9xkpW/giphy.gif" alt="Animación de la ballena de Docker">
+    
 </body>
 </html>
 ```
